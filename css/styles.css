@@ -198,10 +198,6 @@ h2 {
 .wave-text span:nth-child(15) {
     animation-delay: 3.0s;
 }
-.wave-text span:nth-child(16) {
-    animation-delay: 3.2s;
-}
-
 
 @keyframes wave {
     0%, 100% {
