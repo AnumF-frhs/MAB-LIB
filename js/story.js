@@ -32,13 +32,11 @@ var checkBoxes = document.querySelectorAll('input[type="checkbox"]');
 butTon.addEventListener ('click', myFunction);
 function myFunction() {
     const nameBox = userName.value;
-    const adjectiveOne = adjective.value;
-    /*
-    const genderBox = genderInput.value;
-    const userName = nameInput.value;
+    const adjOne = adjective.value;
+    const adjTwo = adjective2.value;
+    const adjThree = adjective3.value;
     const ageUser = ageInput.value;
-    const genderBox = genderInput.value;
-    */
+    // const genderBox = genderInput.value;
     const selectedValue = [];
     for(let i = 0; i < jobBox.length; i++ ) {
         if (jobBox[i].checked) {
