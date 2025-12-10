@@ -37,6 +37,8 @@ function myFunction() {
     const adjThree = adjective3.value;
     const ageUser = ageInput.value;
     // const genderBox = genderInput.value;
+
+    
     const selectedValue = [];
     for(let i = 0; i < jobBox.length; i++ ) {
         if (jobBox[i].checked) {
