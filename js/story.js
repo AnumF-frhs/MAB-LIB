@@ -1,5 +1,7 @@
 alert ('yay! story time whoo hoo!')
 
+var butTon = document.getElementById("submit");
+/*
 var nameBox = document.getElementById("name");
 var adjectiveOne = document.getElementById("adjective");
 var clothIng = document.getElementById("clothing");
@@ -35,7 +37,7 @@ function myFunction() {
     const adjOne = adjective.value;
     const adjTwo = adjective2.value;
     const adjThree = adjective3.value;
-    const ageUser = ageInput.value;
+    const animalInput = animal.value;
     // const genderBox = genderInput.value;
 
     
@@ -55,3 +57,4 @@ function myFunction() {
         outPut.innerHTML = ('Full Name:') + (' ') + (userName) + ('<br>') + ('Age:') + (' ') + (ageUser) + ('<br>') + ('Where did you attend college?') + (' ') + (selectedValue) + ('<br>') + ('Gender:') + (' ' ) + (genderUser) + ('<br>') + ('Skills:') + (' ') +  (checkedValues);
     }
 }
+    */
