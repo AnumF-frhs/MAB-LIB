@@ -15,7 +15,10 @@ function getWords () {
     // console.log(words);
     // console.log(button);
 
-    placeholders.forEach( (placeholder) => {
-    console.log(placeholder)
+    placeholders.forEach((placeholder,index) => {
+    console.log(placeholder,index); 
+    console.log(words[index]);
 });
 }
+
+//18 nodesl
