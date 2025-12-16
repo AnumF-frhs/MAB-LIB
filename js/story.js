@@ -3,15 +3,19 @@ alert ('yay! story time whoo hoo!')
 var button = document.getElementById("submit");
 console.log(button)
 
-var words = document.querySelectorAll('input[type="text"]');
-console.log(words);
+//console.log(words);
 
-var userInput = document.getElementsByClassName("userInput");
-console.log(userInput);
+// console.log(placeholders);
 
 button.addEventListener('click', getWords)
 
 function getWords () {
-    console.log(words);
-    console.log(button);
+    var words = document.querySelectorAll('input[type="text"]');
+    var placeholders = document.querySelectorAll(".userInput");
+    // console.log(words);
+    // console.log(button);
+
+    placeholders.forEach( (placeholder) => {
+    console.log(placeholder)
+});
 }
