@@ -16,8 +16,8 @@ function getWords () {
     // console.log(button);
 
     placeholders.forEach((placeholder,index) => {
-    console.log(placeholder,index); 
-    console.log(words[index]);
+        placeholder.innerHTML = words[index].value;
+
 });
 }
 
