@@ -1,6 +1,6 @@
 alert ('yay! story time whoo hoo!')
 
-var button = document.getElementById("submit");
+var button = document.getElementById("submit")
 console.log(button)
 
 //console.log(words);
@@ -14,11 +14,16 @@ function getWords () {
     var placeholders = document.querySelectorAll(".userInput");
     // console.log(words);
     // console.log(button);
-
+    
     placeholders.forEach((placeholder,index) => {
         placeholder.innerHTML = words[index].value;
+    });
 
-});
+    document.getElementsById('story-screen').style.display = "block";
+
+
 }
 
-//18 nodesl
+
+
+
